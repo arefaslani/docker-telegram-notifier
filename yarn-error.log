@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/admin/.nvm/versions/node/v8.9.4/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js remove @slack/client
+
+PATH: 
+  /Users/admin/go/bin/:/Users/admin/.nvm/versions/node/v8.9.4/bin:/Users/admin/.rbenv/shims:/usr/local/opt/rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "slack-docker",
+    "version": "1.0.0",
+    "description": "Slack integration for notifying Docker events",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/int128/slack-docker.git"
+    },
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "author": "int128",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "@slack/client": "^3.14.1",
+      "dockerode": "^2.5.3",
+      "immutable": "^3.8.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: No lockfile in this directory. Run `yarn install` to generate one.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:89389:13
+      at <anonymous>
